@@ -1,0 +1,1 @@
+document.querySelectorAll('nav button').forEach(button=>{button.addEventListener('click',()=>view(button.dataset.page))});view('inicio');
